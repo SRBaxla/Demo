@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f8xUaAJJ4DNeDdhujRHZ+igq2M71gHJWjWbr35HP+fSpAvu31OU0WDS2vATLyVc4IrmkG4+xlJ1dY95XonNtHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srb73\\Desktop\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srb73\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
