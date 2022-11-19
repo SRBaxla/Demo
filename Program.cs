@@ -16,7 +16,7 @@ namespace Csvreader
             {
                 using( var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                 {
-                    var records=csvReader.GetRecords<dynamic>(andaze).ToList();
+                    var records=csvReader.GetRecords<andaze>().ToList();
                 }
             }
 
