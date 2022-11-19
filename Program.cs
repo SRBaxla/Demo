@@ -16,7 +16,7 @@ namespace Csvreader
             {
                 using( var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                 {
-                    var records=csvReader.GetRecords<dynamic>().ToList();
+                    var records=csvReader.GetRecords<dynamic>(andaze).ToList();
                 }
             }
 
@@ -24,9 +24,13 @@ namespace Csvreader
         public class andaze
         {
             //DATE,grain,BeerProduction,FactoryManagerName
-            public DateOnly Date{get; set;}
+            [Name("DATE")]
+            public DateOnly DATE{get; set;}
+            [Name("grain")]
             public string grain{get; set;}
+            [Name("BeerProduction")]
             public int BeerProduction{get; set;}
+            [Name("FactoryManagerName")]
             public string FactoryManagerName{get; set;}
         }
     }
